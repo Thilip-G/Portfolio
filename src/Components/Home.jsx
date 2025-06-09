@@ -85,8 +85,8 @@ const Home = () => {
                     </motion.div>
 
                     <motion.a
-                        href="/public/Thilip-CV.pdf"
-                        download="Thilip.pdf"
+                        href="/Thilip(3).pdf"
+                        download="Thilip-CV.pdf"
                         className="btn btn-primary mb-2"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
