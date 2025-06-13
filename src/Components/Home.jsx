@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../App.css";
@@ -85,8 +84,8 @@ const Home = () => {
                     </motion.div>
 
                     <motion.a
-                        href="/Thilip(3).pdf"
-                        download="Thilip-CV.pdf"
+                        href="/Thilip.pdf"
+                        download={"Thilip-CV"}
                         className="btn btn-primary mb-2"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
